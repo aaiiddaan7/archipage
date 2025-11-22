@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ArchiPage | Contact</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="navbar glass">
+  <a href="index.html" class="brand"><span class="arch-logo"></span><span class="brand-text">ArchiPage</span></a>
+  <nav class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a class="active" href="contact.html">Contact</a>
+  </nav>
+  <button class="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<section class="page-hero section small">
+  <div class="blob b2"></div>
+  <div class="container">
+    <h1 class="display">Let’s build your site</h1>
+    <p class="lead">Send a message and I’ll reply with next steps.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container contact-wrap reveal">
+    <!-- Contact Form with Formspree -->
+    <form class="contact-form" action="https://formspree.io/f/xwpnqrpw" method="POST">
+      <label>Name
+        <input type="text" name="name" required>
+      </label>
+      <label>Email
+        <input type="email" name="email" required>
+      </label>
+      <label>Message
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <p class="form-note">Or email: <a href="mailto:hello@archipage.co.uk">hello@archipage.co.uk</a></p>
+    </form>
+
+    <!-- Contact Aside -->
+    <aside class="contact-aside">
+      <div class="card mini">
+        <h3>What to include</h3>
+        <ul class="bullets">
+          <li>Your business & goals</li>
+          <li>Pages/features you need</li>
+          <li>Timeline & budget range</li>
+        </ul>
+      </div>
+      <div class="card mini">
+        <h4>Availability</h4>
+        <p>Taking on 1–2 projects this month.</p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <a href="index.html" class="brand mini"><span class="arch-logo"></span><span class="brand-text">ArchiPage</span></a>
+    <nav class="footer-links">
+      <a href="about.html">About</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="contact.html">Contact</a>
+    </nav>
+    <p class="copy">© 2025 ArchiPage. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
